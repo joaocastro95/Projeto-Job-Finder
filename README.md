@@ -88,5 +88,5 @@ Mantivemos uma estrutura organizada para facilitar a manutenção e a compreens�
 
 ## 📝 Autores
 
-- [Danilo Vaz](https://github.com/danilovaz7)
-- [João Castro](https://github.com/joaocastro95)
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/131407565?v=4" width=115><br><sub>Danilo Vaz</sub>](https://github.com/danilovaz7) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/132524175?v=4" width=115><br><sub>João Castro</sub>](https://github.com/joaocastro95) |
+| --- | --- |
