@@ -45,6 +45,30 @@ Para testar o projeto localmente, siga estas etapas:
 
 Isso abrirá a interface web do projeto. Se o servidor estiver funcionando corretamente, você verá a página principal onde poderá utilizar a "Job-Finder".
 
+
+### 🐋 Testando por Docker
+
+Usar Docker em um projeto Node.js traz diversas vantagens, principalmente relacionadas à portabilidade, escalabilidade e independencia do sistema operacional, como por exemplo no AWS. para testar:
+
+1. Abra o terminal (ou prompt de comando) e execute o seguinte comando para clonar o repositório:
+
+   `git clone https://github.com/joaocastro95/Projeto-Job-Finder`
+
+2. Após clonar o repositório, entre no diretório do projeto com o comando:
+
+   `cd Projeto-Job-Finder`
+
+3. Execute o comando abaixo para instalar todas as dependências necessárias para o projeto:
+
+    `docker-compose up --build`
+
+- Se quiser rodar em background: `docker-compose up -d`
+
+4. Abra um navegador web e digite o seguinte endereço na barra de endereços:
+
+   `http://localhost:3000`
+
+
 #### 📝 Observação
 Se você encontrar algum problema ou a página não carregar, verifique as mensagens no terminal para possíveis erros e certifique-se de que o servidor está rodando corretamente. Caso precise de mais assistência, consulte a seção de [Autores] e entre em contato conosco.
 
@@ -70,6 +94,8 @@ Mantivemos uma estrutura organizada para facilitar a manutenção e a compreens�
 - `app.js` - Arquivo principal da aplicação.
 - `add.html` - Página de adição de vagas.
 - `index.html` - Página principal.
+- `docker-compose.yml` - Arquivo para orquestração do Docker.
+- `Dockerfile` - Arquivo de definição da imagem Docker.
 - `package.json` e `package-lock.json` - Dependências do Node.js.
 - `README.md` - Documentação do projeto.
 
@@ -82,6 +108,7 @@ Mantivemos uma estrutura organizada para facilitar a manutenção e a compreens�
 | ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)          | Banco de dados utilizado para armazenar os dados |
 | ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)   | Framework para criar o servidor da API            |
 | ![HTML, CSS, JS](https://img.shields.io/badge/HTML%20/%20CSS%20/%20JS-000000?style=for-the-badge&logo=html5&logoColor=white) | Criação da interface e visualização dos dados     |
+| ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)       | Conteinerização da aplicação                      |
 | ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) | Editor de código utilizado no desenvolvimento     |
 | ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)     | Ferramenta para testar e documentar APIs          |
 | ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)    | Sistema operacional utilizado durante o desenvolvimento  |
