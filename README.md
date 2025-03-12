@@ -70,7 +70,7 @@ Usar Docker em um projeto Node.js traz diversas vantagens, principalmente relaci
 
 
 #### 📝 Observação
-Se você encontrar algum problema ou a página não carregar, verifique as mensagens no terminal para possíveis erros e certifique-se de que o servidor está rodando corretamente. Caso precise de mais assistência, consulte a seção de [Autores] e entre em contato conosco.
+Se você encontrar algum problema ou a página não carregar, verifique as mensagens no terminal para possíveis erros e certifique-se de que o servidor está rodando corretamente. Caso precise de mais assistência, consulte a seção de [Autores](#-autores) e entre em contato conosco.
 
 
 ## 🛠️ Estrutura do Projeto
